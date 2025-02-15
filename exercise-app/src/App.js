@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import React from "react";
 //where you import componente, like menu app in last lab
+import DurationExercise from "./components/DurationExercise";
+import RepetitionExercise from "./components/RepetitionExercise";
+
+const exerciseData = [
+  {
+    "appName": "Health Help",
+    "exerciseName": [
+      {
+        "exerciseItem": "Pushups"
+      },{
+        "exerciseItem": "Running"
+      },{
+        "exerciseItem": "Planks",
+      }
+    ]
+  }
+];
+
+
+//How do I make multiple pages in React??
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DurationExercise name={exerciseData}/>
+      <RepetitionExercise name={exerciseData}/>
     </div>
   );
 }

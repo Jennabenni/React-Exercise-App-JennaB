@@ -27,6 +27,7 @@ const exerciseData = [
   }
 ];
 
+
 function Button({exercise, onClick}){
   return(
     <button onClick={()=> onClick(exercise)}>
@@ -52,22 +53,31 @@ function App() {
   const [currentExercise, setCurrentExercise] = useState(null);
 //so useState creates both current and setCurrent
 
+
+
+
+
   function handleButtonClick(exercise) {
     setCurrentExercise(exercise);
   }
 
   return (
     //this is the app component
+//for new things to be added, {} then the tag
+
+//not current exercise, and make heading with app name
     <div className="App">
+    {!currentExercise && <h1>Health Help</h1>}
 
       {currentExercise ? (
         <>
-          <h1>{currentExercise.exerciseItem}</h1>
+
+
           {currentExercise.type === "duration" ? (
-            <DurationExercise />
+            <DurationExercise name={currentExercise.exerciseItem}/>
             //navigates to duration and rep respectively
           ) : (
-            <RepetitionExercise />
+            <RepetitionExercise name={currentExercise.exerciseItem} />
           )}
         </>
       ) : (

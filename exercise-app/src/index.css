@@ -5,6 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(163, 255, 220);
+
+}
+
+button {
+  padding: 15px;
+  background-color: rgb(48, 116, 48);
+  border: solid 1px black;
+  color: white;
+}
+
+h3 {
+  background-color: rgb(234, 255, 247);
+  padding: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 code {

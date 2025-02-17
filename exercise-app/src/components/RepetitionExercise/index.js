@@ -1,3 +1,13 @@
+/*
+references
+https://react.dev/reference/react/hooks
+//
+//
+// https://www.w3schools.com/react/react_hooks.asp*/
+
+
+
+
 /* Maintain an internal counter and include a button that increments the current value.
 Start at 0
 
@@ -38,8 +48,8 @@ function RepetitionExercise({name}){
     return(
         <div>
         <h2>{name}</h2>
-        <h3>Laps: {lapCount}</h3>
-        <button onClick={handleIncrement}>Complete lap</button>
+        <h3>Reps: {lapCount}</h3>
+        <button onClick={handleIncrement}>Complete rep</button>
         <button onClick={handleReset}>Reset</button>
         </div>
     );

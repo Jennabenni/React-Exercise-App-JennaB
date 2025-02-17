@@ -11,9 +11,10 @@ body {
 
 button {
   padding: 15px;
-  background-color: rgb(48, 116, 48);
+  background-color: rgb(48, 116, 83);
   border: solid 1px black;
   color: white;
+  font-size: 1em;
 }
 
 h3 {
@@ -22,9 +23,26 @@ h3 {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  background-color: rgb(234, 255, 247);
+  width: 400px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding: 40px;
+  font-size: 2.5em;
+  border: solid 2px rgb(15, 35, 25);
 }

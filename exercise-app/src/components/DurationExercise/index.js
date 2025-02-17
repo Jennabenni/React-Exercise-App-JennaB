@@ -1,3 +1,15 @@
+/*
+references
+
+https://webcourses.ucf.edu/courses/1478936/pages/video-useeffect-with-timer-14-43?module_item_id=19288952
+- useEffect with timer
+
+https://react.dev/reference/react/hooks
+*/
+
+
+
+
 /* Must increase in value when the start button is pressed
 Must reset to a reasonable value (00:00 or 00:00:00 are acceptable)
 All buttons may be displayed, or buttons may be displayed based on state

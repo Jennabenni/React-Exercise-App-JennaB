@@ -1,3 +1,6 @@
+//references previous assignments
+/** https://github.com/Jennabenni/React-Menu-App-JennaB*/
+
 //import logo from './logo.svg';
 import './App.css';
 import React, {useState} from "react";
@@ -21,7 +24,7 @@ const exerciseData = [
         "type": "duration"
       },{
         "exerciseItem": "Planks",
-         "type": "repetition"
+         "type": "duration"
       }
     ]
   }
